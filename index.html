@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="LOGO">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" alt="Cart" id="cartimg">
+                <img src="images/menu.png" alt="Menu" id="menuimg" onclick="menutoggle()">
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout<br>A New Style!</h1>
+                    <p>Success isn't always about greatness. It's about consistancy. Consistant hard work gains success.
+                        Greateness will come.</p>
+                    <a href="#" class="btn">Explore Now &#8594</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png" alt="Image1">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Categories  -->
+
+    <div class="categories">
+        <div class="small-container">
+            <h1 class="title">Featured Categories</h1>
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.jpg" alt="Category 1">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg" alt="Category 2">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3.jpg" alt="Category 3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Products  -->
+    <div class="products">
+        <div class="small-container">
+            <h1 class="title">Featured Products</h1>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-1.jpg" alt="Product 1">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$49.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-2.jpg" alt="Product 2">
+                    <h4>HRX Black Shoe</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$79.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-3.jpg" alt="Product 3">
+                    <h4>Peter England Trouser</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$54.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-4.jpg" alt="Product 4">
+                    <h4>Puma Men T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>$64.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest Products  -->
+    <div class="products">
+        <div class="small-container">
+            <h1 class="title">LatestProducts</h1>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-5.jpg" alt="Product 5">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$49.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-6.jpg" alt="Product 6">
+                    <h4>HRX Black Shoe</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$79.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-7.jpg" alt="Product 7">
+                    <h4>Peter England Trouser</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$54.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-8.jpg" alt="Product 8">
+                    <h4>Puma Men T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>$64.00</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-9.jpg" alt="Product 9">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$49.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-10.jpg" alt="Product 10">
+                    <h4>HRX Black Shoe</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$79.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-11.jpg" alt="Product 11">
+                    <h4>Peter England Trouser</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$54.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-12.jpg" alt="Product 12">
+                    <h4>Puma Men T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>$64.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Offers  -->
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" alt="Exclusive Image">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on RedStore</p>
+                    <h2>Smart Band 4</h2>
+                    <small>The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3) AMOLED color full-touch display
+                        with adjustable brightness, so everything is clear as can be.</small><br>
+                    <a href="#" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Google LLC is an United States based multinational technology company that specializes in
+                        Internet-related services and products, which include online advertising technologies, a search
+                        engine, cloud computing, software, and hardware.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/user-1.png" alt="User 1">
+                    <h3>Sean Joe</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Google LLC is an United States based multinational technology company that specializes in
+                        Internet-related services and products, which include online advertising technologies, a search
+                        engine, cloud computing, software, and hardware.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="images/user-2.png" alt="User 2">
+                    <h3>Martin Kroos</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Google LLC is an United States based multinational technology company that specializes in
+                        Internet-related services and products, which include online advertising technologies, a search
+                        engine, cloud computing, software, and hardware.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-3.png" alt="User 3">
+                    <h3>Ronnie Darwin</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Brands -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-coca-cola.png" alt="CocaCola">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-godrej.png" alt="Godrej">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-oppo.png" alt="Oppo">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-paypal.png" alt="PayPal">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-philips.png" alt="Philips">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer  -->
+    <div class="footer">
+        <div class="small-container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download app for android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="Play Store">
+                        <img src="images/app-store.png" alt="App Store">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" alt="Logo White">
+                    <p>Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#">Coupons</a></li>
+                        <li><a href="#">Blog Post</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Join Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="www.facebook.com/rgautam320" target="_blank">Facebook</a></li>
+                        <li><a href="www.instagram.com/rgautam320" target="_blank">Instagram</a></li>
+                        <li><a href="www.twitter.com/rgautam320" target="_blank">Twitter</a></li>
+                        <li><a href="www.youtube.com/rgautam320" target="_blank">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-text">
+            <p>Copyright &copy; 2020 : Rajan Gautam</p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "250px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
